@@ -44,7 +44,7 @@
             <div><label for="useremail">
                 Email:
                 </label>
-                <input type="text" name="useremail" id="useremail" required maxlength="100" size="50" placeholder="Email">
+                <input type="email" name="useremail" id="useremail" required maxlength="100" size="50" placeholder="Email">
             </div>
             <div>
                 <legend>Sexo</legend>
@@ -55,16 +55,22 @@
                 
             </div>
             <div>
+                <label for="number">
+                    Número de telefone
+                </label>
+                <input type="tel" name="numeber" id="number" required maxlength="16" minlength="15" placeholder="Número de Telefone">
+            </div>
+            <div>
                 <label for="pin">
                     Senha:
                 </label>
-                <input type="text" name="pin" id="pin"required maxlength="100" size="50" placeholder="Senha">
+                <input type="password" name="pin" id="pin"required maxlength="100" size="50" placeholder="Senha">
             </div>
             <div>
                 <label for="sobpin">
                     Digite a senha novamente:
                 </label>
-                <input type="text" name="sobpin" id="sobpin" required maxlength="100" size="50" placeholder="Digite sua senha novamente">
+                <input type="password" name="sobpin" id="sobpin" required maxlength="100" size="50" placeholder="Digite sua senha novamente">
             </div>
             <div>
                 <a href="newaccount.html"><input type="submit" id="submit" value="Increver-se"></a>
