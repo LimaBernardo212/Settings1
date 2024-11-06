@@ -418,7 +418,7 @@ footer{
     font-weight: bold;
     padding: 50px;
 }
-#login{
+.login{
     margin-left: 155px;
     margin-top: 175px;
     
@@ -427,6 +427,18 @@ footer{
     background-color: var(--cor05);
     width: 600px;
     height: 105vh;
+    animation-name: slideLogin;
+    animation-duration: 3.5s;
+}
+@keyframes slideLogin{
+    from {
+        opacity: 0;
+        transform: translateX(60px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 label{
     display: block;
@@ -1013,4 +1025,15 @@ i > a{
     text-decoration: underline;
     color: var(--cor02);
     background-color: var(--cor04);
+}
+.pin{
+    display: inline-flex;
+}
+.pinImg{
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 510px;
+    left: 1200px;
 }
