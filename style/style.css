@@ -420,10 +420,10 @@ footer{
 }
 .login{
     margin-left: 155px;
-    margin-top: 175px;
+    margin-top: 230px;
     
     padding: 55px 150px
-    0px 200px;
+    50px 200px;
     background-color: var(--cor05);
     width: 600px;
     height: 105vh;
@@ -1029,11 +1029,11 @@ i > a{
 .pin{
     display: inline-flex;
 }
-.pinImg{
-    display: inline-flex;
+.eye{
+    position: relative;
+    left: 175px;
+    top: 23px;
     width: 25px;
     height: 25px;
-    position: absolute;
-    top: 510px;
-    left: 1200px;
+    background-image: url("");
 }
