@@ -13,7 +13,8 @@ section#presentation{
     width: 100vw;
 }
 section#presentation > img{
-    width: 75%;
+    width: 90vw;
+    height: 25vh;
     margin-top: -60px;
     margin-left: auto;
     margin-right: auto;
@@ -24,7 +25,7 @@ section#presentation > h1{
     margin-top: -250px;
     margin-left: 50px;
     font-size: 1.95em;
-    max-width: 350px;
+    max-width: 300px;
     
 }
 
@@ -77,12 +78,6 @@ article img{
     width: 50px;
     height: 55px;
 }
-#img{
-    width: 50vw;
-    height: 50vw;
-    margin-top: 40px;
-    margin: auto;
-}
 .trans h1{
     font-size: 2em;
     width: 85vw;
@@ -91,6 +86,7 @@ article img{
     max-width: 75vw;
 }
 .trans img{
+    margin-top: 25px;
     width: 80vw;
     height: 80vw;
     
@@ -127,7 +123,8 @@ h2{
 }
 #img{
     width: 75vw;
-    height: 45vh;
+    height: 40vh;
+    margin-left: 35px;
 }
 #transit{
     display: inline-flex;
@@ -173,8 +170,9 @@ h2{
     margin-top: -10px;
 }
 #button{
-    margin-left: 20px;
-    width: 300px;
+    margin-left: 5px;
+    width: 310px;
+    margin-bottom: 30px;
 }
 .title::before{
     content: '—';
