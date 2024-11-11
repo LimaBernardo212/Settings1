@@ -315,7 +315,7 @@ p{
     top: -7px;
     left: 7px;
 }
-.Sp{
+.Spa{
     width: 100px;
 }
 #center{
@@ -1036,4 +1036,21 @@ i > a{
     width: 25px;
     height: 25px;
     background-image: url("");
+}
+.CBUM{
+    padding: 15px;
+    padding-left: 275px;
+    padding-right: 275px;
+    border-radius: 25px;
+    background-color: var(--cor05);
+    margin-left: 125px;
+    text-decoration: none;
+    color: var(--cor01);
+    font-weight: bold;
+    font-family: var(--fontNormal);
+}
+.CBUM:hover{
+    text-decoration: underline;
+    color: var(--cor02);
+    background-color: var(--cor04);
 }

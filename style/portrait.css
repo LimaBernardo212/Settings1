@@ -13,8 +13,8 @@ section#presentation{
     width: 100vw;
 }
 section#presentation > img{
-    width: 90vw;
-    height: 25vh;
+    width: 65vw;
+    height: 17vh;
     margin-top: -60px;
     margin-left: auto;
     margin-right: auto;
@@ -22,8 +22,8 @@ section#presentation > img{
 section#presentation > h1{
     font-size: 2em;
     padding: 0px 15px 0px 20px;
-    margin-top: -250px;
-    margin-left: 50px;
+    margin-top: -350px;
+    margin-left: 40px;
     font-size: 1.95em;
     max-width: 300px;
     
@@ -50,7 +50,7 @@ section#presentation > h1{
     margin: auto;
 }
 #divere{
-margin: auto; 
+    margin: auto; 
 }
 #pararsett{
     transform: translate(6vw, -2.5vh);
@@ -168,6 +168,7 @@ h2{
 }
 #imgg{
     margin-top: -10px;
+    margin-left: 35px;
 }
 #button{
     margin-left: 5px;
@@ -185,4 +186,41 @@ h2{
 }
 #glass{
     margin-left: 50px;
+}
+.port{
+    padding-top: 600px;
+    
+}
+#portifolio{
+    padding-left: -100px;
+}
+#center{
+    margin-left: 25vw;
+}
+.Sp{
+   
+}
+.Sp img{
+    width: 100px;
+    height: 100px;
+}
+#Inscrever{
+    width: 90vw;
+}
+.CBUM{
+    padding: 15px 100px;
+
+    width: 300px;
+    border-radius: 25px;
+    background-color: var(--cor05);
+    margin-left: 35px;
+    text-decoration: none;
+    color: var(--cor01);
+    font-weight: bold;
+    font-family: var(--fontNormal);
+}
+.CBUM:hover{
+    text-decoration: underline;
+    color: var(--cor02);
+    background-color: var(--cor04);
 }
