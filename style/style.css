@@ -1054,3 +1054,7 @@ i > a{
     color: var(--cor02);
     background-color: var(--cor04);
 }
+.img{
+    border-radius: 50%;
+    margin-right: 25px;
+}

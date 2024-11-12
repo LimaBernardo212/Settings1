@@ -152,7 +152,7 @@ h2{
 }
 .trans{
     display: inline-flex;
-    height: 80vh;
+    height: 90vh;
     padding: 10px;
     flex-wrap: nowrap;
     align-items: center;
@@ -223,4 +223,37 @@ h2{
     text-decoration: underline;
     color: var(--cor02);
     background-color: var(--cor04);
+}
+.CHUTEDOKWON{
+    margin-left: 25px;
+    width: 300px;
+    padding: 15px 100px;
+}
+#diver{
+    padding-top: 125px;
+    padding-left: 25px;
+}
+.img4{
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    top: -750px;
+}
+.img{
+    position: relative;
+    width: 25vw;
+    width: 25vw;
+    top: -750px;
+    
+}
+#transer{
+    display: inline-flex;
+    height: 90vh;
+    padding: 200px 10px 10px 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+    animation-name: slide;
+    animation-duration: 3.5s;
+    border-left: none;
+    flex-wrap: wrap;
 }
