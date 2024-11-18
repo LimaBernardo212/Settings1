@@ -1058,3 +1058,41 @@ i > a{
     border-radius: 50%;
     margin-right: 25px;
 }
+.prox{
+    display: block;
+    margin-left: 170px;
+    margin-top: 75px;
+    text-decoration: none;
+    color: var(--cor01);
+    font-weight: bold;
+    font-family: var(--fontNormal);
+    font-size: 1.05em;
+    background-color: var(--cor05);
+    width: 350px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+.prox:hover{
+    text-decoration: underline;
+    color: var(--cor02);
+}
+.proxi{
+    display: block;
+    margin-left: 170px;
+    margin-top: 75px;
+    text-decoration: none;
+    color: var(--cor01);
+    font-weight: bold;
+    font-family: var(--fontNormal);
+    font-size: 1.05em;
+    background-color: var(--cor05);
+    width: 350px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+.proxi:hover{
+    text-decoration: underline;
+    color: var(--cor02);
+}
