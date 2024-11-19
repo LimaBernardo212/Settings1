@@ -294,12 +294,15 @@ h2{
 #transiterser p, #transiter p, #bronze p, #prata p, #gold p, #platine p, #diamond p{
     width: 275px;
 }
+#transiterser h1, #transiter h1, #bronze h1, #prata h1, #gold h1, #platine h1, #diamond h1{
+    margin-left: 0px;
+}
 .prox{
-    margin-left: 20px;
+    margin-left: 30px;
     width: 300px;
 }
 .proxi{
-    margin-left: 5px;
+    margin-left: 25px;
     width: 300px;
 }
 div p{
@@ -307,6 +310,11 @@ div p{
 }
 .CHUTED{
     margin-left: 75px;
+    width: 300px;
+    padding: 15px 100px;
+}
+.DOKWON{
+    margin-left: 35px;
     width: 300px;
     padding: 15px 100px;
 }
