@@ -185,7 +185,7 @@ h2{
     margin-left: 17.5px;
 }
 #glass{
-    margin-left: 50px;
+    margin-left: 25px;
 }
 .port{
     padding-top: 600px;
@@ -270,7 +270,7 @@ h2{
 }
 #vid{
     margin-top: 100px;
-    margin-left: 0px;
+    margin-left: 15px;
 }
 .transt{
     display: block;
@@ -279,8 +279,12 @@ h2{
 .eye{
     left: 29vw;
 }
-#buttton{
+#button{
     margin-left: 15px;
+    width: 300px;
+}
+#buttton{
+    margin-left: 0px;
     width: 300px;
 }
 #transiterser img, #transiter img, #bronze img, #prata img, #gold img, #platine img, #diamond img{
@@ -297,6 +301,9 @@ h2{
 .proxi{
     margin-left: 5px;
     width: 300px;
+}
+div p{
+    margin-left: 25px;
 }
 
 /*Rivaldo Jesus, Aberta Demais de Oliveira, Mega Bombadora, GrandePorcoVirovisch
