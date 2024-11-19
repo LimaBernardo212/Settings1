@@ -270,7 +270,7 @@ h2{
 }
 #vid{
     margin-top: 100px;
-    margin-left: 15px;
+    margin-left: -15px;
 }
 .transt{
     display: block;
