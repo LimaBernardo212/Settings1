@@ -1132,3 +1132,20 @@ text-decoration: underline;
 color: var(--cor02);
 background-color: var(--cor04);
 }
+.project{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.parceir{
+        display: none;
+        border-bottom: 3px solid var(--cor05);
+        border-left: 3px solid var(--cor05);
+        border-right: 3px solid var(--cor05);
+        margin-top: 10px;
+        width: 1000px;
+        padding: 7px;
+        margin-left: 140px;
+}
+.parceir:hover{
+    border-color: var(--cor03);
+}
