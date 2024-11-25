@@ -1192,3 +1192,18 @@ thead{
 .footer{
     padding-bottom: 10px;
 }
+
+label{
+    color: var(--cor05);
+}
+#precisoParar{
+    padding: 20px;
+    margin-left: 135px;
+}
+#file{
+    padding: 20px 0px 0px 10px;
+    width: 3005px;
+    color: var(--cor01);
+    border-radius: 25px;
+    align-self: center;
+}
