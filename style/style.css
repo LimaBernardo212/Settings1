@@ -8,6 +8,7 @@
     --cor05: #F2F2F2;
     --cor06: #1c202475;
     --cor07: black;
+    --cor08: #1e252c;
     --fontNormal: 'Roboto';
     --fontTitle: 'Roboto Mono';
     --fontH1: 'Roboto Condensed';
@@ -1148,4 +1149,46 @@ background-color: var(--cor04);
 }
 .parceir:hover{
     border-color: var(--cor03);
+}
+footer{
+    background-color: var(--cor08);
+    position: sticky;
+    bottom: 0px;
+    color: var(--cor05);
+    font-weight: bold;
+    font-family: var(--fontNormal);
+    padding: 15px;
+}
+thead{
+    padding: 20px  10px;
+}
+.ht{
+    padding-left:105px ; 
+    padding-right:105px  ;
+}
+#version{
+    padding-left: 155px;
+    padding-right: 155px;
+}
+#inform{
+    padding-left: 215px;
+    padding-right: 215px;
+    padding-top: 15px;
+}
+#select{
+    padding: 10px 100px;
+    text-decoration: none;
+    color: var(--cor01);
+    background-color: var(--cor05);
+    border-radius: 50px;
+    font-size: 0.85em;
+   
+}
+#select:hover{
+    color: var(--cor01);
+    background-color: var(--cor03);
+    text-decoration: none;
+}
+.footer{
+    padding-bottom: 10px;
 }
