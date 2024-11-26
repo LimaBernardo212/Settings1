@@ -1,5 +1,9 @@
-var file = document.querySelector("#file");
+var version = document.getElementById("#versionas");
+var att = document.getElementById("#atu");
+var final = document.getElementById("#final");
 
-function apareça(){
-    file.color = "White"
+var numb = 0.1;
+function number(){
+    numb += 0.1
+    version.innerText = `${numb}`
 }

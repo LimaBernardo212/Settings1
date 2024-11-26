@@ -8,7 +8,7 @@
     --cor05: #F2F2F2;
     --cor06: #1c202475;
     --cor07: black;
-    --cor08: #1e252c;
+    --cor08: #252f38;
     --fontNormal: 'Roboto';
     --fontTitle: 'Roboto Mono';
     --fontH1: 'Roboto Condensed';
@@ -453,6 +453,8 @@ input{
     height: 50px;
     border-radius: 15px;
     margin: 5px -15px;
+    padding: 5px;
+    border: 1px solid var(--cor04);
 }
 #submit{
     background-color: var(--cor01);
@@ -1033,7 +1035,7 @@ i > a{
 .eye{
     position: relative;
     left: 175px;
-    top: 23px;
+    top: 25px;
     width: 25px;
     height: 25px;
     background-image: url("");
@@ -1190,11 +1192,7 @@ thead{
     text-decoration: none;
 }
 .footer{
-    padding-bottom: 10px;
-}
-
-label{
-    color: var(--cor05);
+    align-self: center;
 }
 #precisoParar{
     padding: 20px;
@@ -1206,4 +1204,22 @@ label{
     color: var(--cor01);
     border-radius: 25px;
     align-self: center;
+}
+#att{
+    margin-top: 400px;
+}
+#atualizes{
+    padding: 50px;
+}
+#atualizes p{
+    padding: 55px;
+}
+#url{
+    margin-left: 5vw;
+}
+#url input{
+    border: 0px solid var(--cor01);
+}
+#url p{
+    margin-left: 70px;
 }
