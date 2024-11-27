@@ -1223,3 +1223,6 @@ thead{
 #url p{
     margin-left: 70px;
 }
+#sections{
+    display: none;
+}
